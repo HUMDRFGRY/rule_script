@@ -1,0 +1,53 @@
+// 代理规则配置
+const PROXY_RULES = [
+    // 常用AI网站分组 
+    {
+        name: "openAi",
+        gfw: true,
+        urls: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/OpenAI/OpenAI_No_Resolve.yaml"
+    },
+    {
+        name: "Claude",
+        gfw: true,
+        payload: [
+            "DOMAIN,cdn.usefathom.com",
+            "DOMAIN-SUFFIX,anthropic.com",
+            "DOMAIN-SUFFIX,claude.ai"
+        ]
+    },
+    // Grok规则
+    {
+        name: "Grok",
+        gfw: true,
+        payload: [
+            "DOMAIN-SUFFIX,x.ai",
+            "DOMAIN-SUFFIX,grok.com",
+            "DOMAIN-SUFFIX,x.com",
+            "DOMAIN-KEYWORD,grok",
+            "DOMAIN-KEYWORD,x.ai"
+        ]
+    },
+    // WhatsApp规则
+    {
+        name: "WhatsApp",
+        gfw: true,
+        urls: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Whatsapp/Whatsapp.yaml"
+    },
+    // Gemini
+    {
+        name: "Gemini",
+        gfw: true,
+        urls: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Gemini/Gemini.yaml"
+    },
+    // Spotify规则
+    {
+        name: "Spotify",
+        gfw: true,
+        urls: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Spotify/Spotify.yaml"
+    },
+    { 
+        name: "Facebook", 
+        gfw: true, 
+        urls: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Facebook/Facebook_No_Resolve.yaml" 
+    },
+];
