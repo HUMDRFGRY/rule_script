@@ -1,0 +1,25 @@
+# NAME: AI_Services
+
+# UPDATED: 2024-03-23 12:00:00
+# DOMAIN: 3
+# DOMAIN-KEYWORD: 3
+# DOMAIN-SUFFIX: 10
+# TOTAL: 18
+
+# Claude
+DOMAIN,cdn.usefathom.com
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+
+# Grok
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,x.com
+DOMAIN-KEYWORD,grok
+
+
+# Perplexity
+DOMAIN,www.perplexity.ai
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,pplx.ai
+DOMAIN-KEYWORD,perplexity
